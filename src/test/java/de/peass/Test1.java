@@ -15,7 +15,7 @@ public class Test1 {
 	
 	@Test
    public void testFail(){
-      System.out.println("Some fail output");
+      System.out.println("Some fail output: " + System.getProperty("java.version"));
       
       Assert.assertTrue(false);
    }
